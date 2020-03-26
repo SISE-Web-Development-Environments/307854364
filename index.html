@@ -116,28 +116,27 @@ answers to the questions
             <td><strong>Main Success Scenario</strong></td>
             <td colspan="2">
                 <ol>
-                    <li>1.The User Search: "Side effect of Medicine"</li>
+                    <li>The User Searches for the query: "Side effect of Medicine"</li>
                     <br>
-                    <li>2.The Web gives the user results</li>
+                    <li>The Web retrieves results for the user</li>
                     <br>
-                    <li>3.The user gets data about side effect of medicine</li>
+                    <li>The user browses the data recieved about side effects of medicine</li>
                     <br>
-                    <li>4.The user pick the data he wants</li>
+                    <li>The user chooses the data thats relevant to him</li>
                 </ol>
             </td>
         </tr>
         <tr>
             <td><strong>Alternative Scenario</strong></td>
             <td align="left">2. The data doesn't exist in the web<br>
-                &nbsp&nbsp&nbsp&nbsp 2.1 User need to search in other words<br>
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 2.1.1 If not, the engine doesn't return anything<br>
-                &nbsp&nbsp&nbsp&nbsp 2.2 Back to 2
+                &nbsp&nbsp&nbsp&nbsp 2.1 User needs to search using a different query<br>
+                &nbsp&nbsp&nbsp&nbsp 2.2 Back to step 2
             </td>
-            <td align="left">3. The data is not relevance<br>
-                &nbsp&nbsp&nbsp&nbsp 3.1 User need to find what relevance by searching in reliable sites<br>
+            <td align="left">3. The data is not relevant to the given query<br>
+                &nbsp&nbsp&nbsp&nbsp 3.1 User needs to find relevant data using other sites<br>
                 &nbsp&nbsp&nbsp&nbsp 3.2 Back to 3<br>
-                4. The data is not consistently in all webs<br>
-                &nbsp&nbsp&nbsp&nbsp 4.1 User need to ask professional about medicine<br>
+                4. The data is not consistent in all of the results<br>
+                &nbsp&nbsp&nbsp&nbsp 4.1 User needs to ask a professional<br>
                 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 4.1.1 If not, Back to 4<br>
             </td>
         </tr>
@@ -153,28 +152,23 @@ answers to the questions
 
 If you wanna spar, go ahead and mail me :)
 <section id="contact" class="section">
-<br/>
-<form action="mailto:wolfa@post.bgu.ac.il" method="post" enctype="text/plain">
-Name:<br>
-<input type="text" name="name"><br>
-E-mail:<br>
-<input type="text" name="mail"><br>
-Comment:<br><input type="text" name="comment" size="50"><br><br>
-<p>
-	<input name="emoji" type="radio">&#128533;</input>
-    <input name="emoji" type="radio">&#128545;</input>
-    <input name="emoji" type="radio">&#128549;</input>
-    <input name="emoji" type="radio">&#128563;</input>
-    <input name="emoji" type="radio" checked>&#128515;</input>
-    <input name="emoji" type="radio">&#128517;</input>
-    <input name="emoji" type="radio">&#128521;</input>
-
-    </p>
-
-<input type="submit" value="Send">
-<input type="reset" value="Reset">
-</form>
-<br/>
+  <form action="mailto:wolfa@post.bgu.ac.il" method="post" enctype="text/plain">
+    E-mail:<br>
+    <input type="email"><br>
+    Message:<br><textarea style="height: 300px;" placeholder="write your message hare" name="comment" size="50"></textarea><br><br>
+    <label for="emoji">Smile</label>
+    <select id="emoji" name="emoji">
+        <option>⚽</option>
+		<option>&#128545;</option>
+		<option>&#128549;</option>
+		<option>&#128563;</option>
+		<option>&#128517;</option>
+		<option>&#128521;</option>
+        <option></option>
+    </select>
+    
+    <input type="submit" value="Send to us">
+    </form>
 </section>
 
 
